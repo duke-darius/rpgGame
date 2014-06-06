@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="img.js"></script>	
+</head>
+<style>
+	
+div{
+	display: inline-block;
+}
+
+</style>
+<body>
+	<canvas id="canvas" style="border:1px solid #000"></canvas>
+
+
+	<script type="text/javascript" src="game.js"></script>
+	<script type="text/javascript" src="levelOne.js"></script>	
+
+
+
+	<div id="debugPanel" style="position:fixed;top:10px;left:1300px;background:rgba(125,0,0,0.5);">
+		<div>player.x =&nbsp; </div><div id="player-x"></div><br />
+		<div>player.y =&nbsp; </div><div id="player-y"></div><br />
+		<div>player.width =&nbsp; </div><div id="player-width"></div><br />
+		<div>player.height =&nbsp; </div><div id="player-height"></div><br />
+		<div>player.velX =&nbsp; </div><div id="player-velX"></div><br />
+		<div>player.velY =&nbsp; </div><div id="player-velY"></div><br />
+		<div>player.jumping =&nbsp; </div><div id="player-jumping"></div><br />
+		<div>player.speed =&nbsp; </div><div id="player-speed"></div><br />
+		<div>player.gravity =&nbsp; </div><div id="player-gravity"></div><br />
+		<div>player.friction =&nbsp; </div><div id="player-friction"></div><br />
+	</div>
+
+</body>
+
+</html>
